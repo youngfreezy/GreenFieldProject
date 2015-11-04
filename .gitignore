@@ -1,0 +1,10 @@
+node_modules/
+bower_components/
+*.log
+client/lib
+build/
+dist/
+client/uploads/.DS_Store
+.DS_Store
+client/uploads/*.png
+Server/assets/drawings/*.png

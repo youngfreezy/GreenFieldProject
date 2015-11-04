@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  margin-top: 10px;
+  font-family: 'helvetica neue', helvetica, sans-serif;
+}
+
+a {
+  color: #333;
+  font-size: 14px;
+}
+a.button {
+  text-decoration: none;
+  background-color: #419BF9;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+a:hover {
+  background: rgb(151, 202, 255);
+}
+
+a.minor {
+    background-color: #eee;
+    color: #333;
+}
+
+a.minor:hover {
+  background-color: #fff;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+form {
+  margin: 10px;
+}
+
+input {
+  width: 80%;
+  display: block;
+  font-size: 13px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.canvas-container canvas {
+  margin-top: 10px;
+  border: 1px solid #eee;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.enter-code-form {
+  margin-top: 20px;
+  clear: both;
+  float: left;
+}
+.enter-code-form input {
+  font-size: 24px;
+  float: left;
+  clear: both;
+}
+.enter-code-form a {
+  float: left;
+  clear: both;
+}
+
+h1 {
+  background: url(../assets/images/spliced-logo.png) 0 0 no-repeat;
+  width: 167px;
+  height: 76px;
+  background-size: 167px 76px;
+  text-indent: -9999px;
+  margin-top: 0;
+}
+
+.gameStatus {
+  width: 100%;
+  float: left;
+  margin-top: 2em;
+}
+
+
+@media (max-width: 400px) {
+  img {
+    width: 100%;
+  }
+}
